@@ -1,0 +1,18 @@
+How to create servlet using javax.servlet.Servlet interface.
+There are 5 methods in Servlet interface .
+
+
+	1.public abstract void init(javax.servlet.ServletConfig);
+	2.public ServletConfig getServletConfigt();
+	3.public void service(javax.servlet.ServletRequest,javax.servlet.ServletResponse);
+	4.public abstract java.lang.String getServletInfo();
+	5.public abstract void destroy();
+
+Life cycle methods 1,3,5.
+
+We will use the method by overriding the methods
+mapping -> web.xml (Deployment descriptor)
+
+
+Web.xml _>
+servlet declaration and servlet mapping is very important
